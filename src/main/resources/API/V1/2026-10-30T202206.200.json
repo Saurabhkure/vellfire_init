@@ -1,0 +1,4037 @@
+{
+  "places": [
+    {
+      "id": "ChIJyyP5h2y7eTkRTfmSFBJUFq8",
+      "formattedAddress": "MCR7+FG8, Azadpura, Lalitpur, Uttar Pradesh 284403, India",
+      "location": {
+        "latitude": 24.691170699999997,
+        "longitude": 78.4138183
+      },
+      "rating": 5,
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1,
+      "displayName": {
+        "text": "Govind Sagar Bandh",
+        "languageCode": "en"
+      }
+    },
+    {
+      "id": "ChIJSUlJiKa7eTkRpW9ULzqfGE8",
+      "formattedAddress": "Chrch Road, Civil Lines, MCW8+58R, near New Bus Stand, Civil Lines, Lalitpur, Uttar Pradesh 284403, India",
+      "location": {
+        "latitude": 24.695905999999997,
+        "longitude": 78.415393999999992
+      },
+      "rating": 4,
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 22,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 6:00 AM – 10:00 PM",
+          "Tuesday: 6:00 AM – 10:00 PM",
+          "Wednesday: 6:00 AM – 10:00 PM",
+          "Thursday: 6:00 AM – 10:00 PM",
+          "Friday: 6:00 AM – 10:00 PM",
+          "Saturday: 6:00 AM – 10:00 PM",
+          "Sunday: 6:00 AM – 10:00 PM"
+        ],
+        "nextCloseTime": "2026-10-30T16:30:00Z"
+      },
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 286,
+      "displayName": {
+        "text": "IndianOil",
+        "languageCode": "en"
+      },
+      "currentOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 1
+              }
+            },
+            "close": {
+              "day": 0,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 1
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 2
+              }
+            },
+            "close": {
+              "day": 1,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 2
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 3
+              }
+            },
+            "close": {
+              "day": 2,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 3
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 4
+              }
+            },
+            "close": {
+              "day": 3,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 4
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 5
+              }
+            },
+            "close": {
+              "day": 4,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 5
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 30
+              }
+            },
+            "close": {
+              "day": 5,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 30
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 31
+              }
+            },
+            "close": {
+              "day": 6,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 31
+              }
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 6:00 AM – 10:00 PM",
+          "Tuesday: 6:00 AM – 10:00 PM",
+          "Wednesday: 6:00 AM – 10:00 PM",
+          "Thursday: 6:00 AM – 10:00 PM",
+          "Friday: 6:00 AM – 10:00 PM",
+          "Saturday: 6:00 AM – 10:00 PM",
+          "Sunday: 6:00 AM – 10:00 PM"
+        ],
+        "nextCloseTime": "2026-10-30T16:30:00Z"
+      },
+      "restroom": true
+    },
+    {
+      "id": "ChIJxZc6DKi7eTkR7hohriqbELo",
+      "formattedAddress": "Ground Floor, MCV9+3PC, Station Rd, Gandhi Nagar Nai Basti, Nazai Bazar, Lakshmipura, Lalitpur, Uttar Pradesh 284403, India",
+      "location": {
+        "latitude": 24.6922732,
+        "longitude": 78.4188241
+      },
+      "rating": 3.6,
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 0,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: Open 24 hours",
+          "Tuesday: Open 24 hours",
+          "Wednesday: Open 24 hours",
+          "Thursday: Open 24 hours",
+          "Friday: Open 24 hours",
+          "Saturday: Open 24 hours",
+          "Sunday: Open 24 hours"
+        ]
+      },
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 337,
+      "displayName": {
+        "text": "Hindustan Petroleum Corporation Limited",
+        "languageCode": "en"
+      },
+      "currentOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 5,
+              "hour": 0,
+              "minute": 0,
+              "truncated": true,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 30
+              }
+            },
+            "close": {
+              "day": 4,
+              "hour": 23,
+              "minute": 59,
+              "truncated": true,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 5
+              }
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: Open 24 hours",
+          "Tuesday: Open 24 hours",
+          "Wednesday: Open 24 hours",
+          "Thursday: Open 24 hours",
+          "Friday: Open 24 hours",
+          "Saturday: Open 24 hours",
+          "Sunday: Open 24 hours"
+        ]
+      },
+      "restroom": true
+    },
+    {
+      "id": "ChIJ-YfqnYypeTkRqhzRROMmto0",
+      "formattedAddress": "No 539, 1 Kachnadakala, Civil Lines, Lalitpur, Uttar Pradesh 284403, India",
+      "location": {
+        "latitude": 24.6987912,
+        "longitude": 78.4045877
+      },
+      "rating": 4.5,
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 22,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 6:00 AM – 10:00 PM",
+          "Tuesday: 6:00 AM – 10:00 PM",
+          "Wednesday: 6:00 AM – 10:00 PM",
+          "Thursday: 6:00 AM – 10:00 PM",
+          "Friday: 6:00 AM – 10:00 PM",
+          "Saturday: 6:00 AM – 10:00 PM",
+          "Sunday: 6:00 AM – 10:00 PM"
+        ],
+        "nextCloseTime": "2026-10-30T16:30:00Z"
+      },
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 6,
+      "displayName": {
+        "text": "IndianOil",
+        "languageCode": "en"
+      },
+      "currentOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 1
+              }
+            },
+            "close": {
+              "day": 0,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 1
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 2
+              }
+            },
+            "close": {
+              "day": 1,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 2
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 3
+              }
+            },
+            "close": {
+              "day": 2,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 3
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 4
+              }
+            },
+            "close": {
+              "day": 3,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 4
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 5
+              }
+            },
+            "close": {
+              "day": 4,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 5
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 30
+              }
+            },
+            "close": {
+              "day": 5,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 30
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 31
+              }
+            },
+            "close": {
+              "day": 6,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 31
+              }
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 6:00 AM – 10:00 PM",
+          "Tuesday: 6:00 AM – 10:00 PM",
+          "Wednesday: 6:00 AM – 10:00 PM",
+          "Thursday: 6:00 AM – 10:00 PM",
+          "Friday: 6:00 AM – 10:00 PM",
+          "Saturday: 6:00 AM – 10:00 PM",
+          "Sunday: 6:00 AM – 10:00 PM"
+        ],
+        "nextCloseTime": "2026-10-30T16:30:00Z"
+      }
+    },
+    {
+      "id": "ChIJRa87W9K7eTkRMJXkzefnufE",
+      "formattedAddress": "Ground Floor, Elite Chauraha, Rajghat Rd, Civil Lines, Kachnoda Kalan, Lalitpur, Uttar Pradesh 284403, India",
+      "location": {
+        "latitude": 24.701884999999997,
+        "longitude": 78.417709
+      },
+      "rating": 4,
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 22,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 6:00 AM – 10:00 PM",
+          "Tuesday: 6:00 AM – 10:00 PM",
+          "Wednesday: 6:00 AM – 10:00 PM",
+          "Thursday: 6:00 AM – 10:00 PM",
+          "Friday: 6:00 AM – 10:00 PM",
+          "Saturday: 6:00 AM – 10:00 PM",
+          "Sunday: 6:00 AM – 10:00 PM"
+        ],
+        "nextCloseTime": "2026-10-30T16:30:00Z"
+      },
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 35,
+      "displayName": {
+        "text": "IndianOil",
+        "languageCode": "en"
+      },
+      "currentOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 1
+              }
+            },
+            "close": {
+              "day": 0,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 1
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 2
+              }
+            },
+            "close": {
+              "day": 1,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 2
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 3
+              }
+            },
+            "close": {
+              "day": 2,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 3
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 4
+              }
+            },
+            "close": {
+              "day": 3,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 4
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 5
+              }
+            },
+            "close": {
+              "day": 4,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 5
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 30
+              }
+            },
+            "close": {
+              "day": 5,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 30
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 31
+              }
+            },
+            "close": {
+              "day": 6,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 31
+              }
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 6:00 AM – 10:00 PM",
+          "Tuesday: 6:00 AM – 10:00 PM",
+          "Wednesday: 6:00 AM – 10:00 PM",
+          "Thursday: 6:00 AM – 10:00 PM",
+          "Friday: 6:00 AM – 10:00 PM",
+          "Saturday: 6:00 AM – 10:00 PM",
+          "Sunday: 6:00 AM – 10:00 PM"
+        ],
+        "nextCloseTime": "2026-10-30T16:30:00Z"
+      },
+      "restroom": true
+    },
+    {
+      "id": "ChIJnanoACy7eTkRmatzU25w-kY",
+      "formattedAddress": "Budwar Road, near ITI College, Civil Lines, Lalitpur, Uttar Pradesh 284403, India",
+      "location": {
+        "latitude": 24.699173299999998,
+        "longitude": 78.4000467
+      },
+      "rating": 4.6,
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 9,
+      "displayName": {
+        "text": "Guru Kripa Filling Station",
+        "languageCode": "en"
+      }
+    },
+    {
+      "id": "ChIJlw2XJK67eTkR7glEGLTUR-M",
+      "formattedAddress": "Ground Floor, Jhansi - Lalitpur Rd, Subhash Pura, Lalitpur, Uttar Pradesh 284403, India",
+      "location": {
+        "latitude": 24.7025488,
+        "longitude": 78.4222058
+      },
+      "rating": 3.7,
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 5,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 5,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 5,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 5,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 5,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 5,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 5,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 23,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 5:00 AM – 11:00 PM",
+          "Tuesday: 5:00 AM – 11:00 PM",
+          "Wednesday: 5:00 AM – 11:00 PM",
+          "Thursday: 5:00 AM – 11:00 PM",
+          "Friday: 5:00 AM – 11:00 PM",
+          "Saturday: 5:00 AM – 11:00 PM",
+          "Sunday: 5:00 AM – 11:00 PM"
+        ],
+        "nextCloseTime": "2026-10-30T17:30:00Z"
+      },
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 49,
+      "displayName": {
+        "text": "Hindustan Petroleum Corporation Limited",
+        "languageCode": "en"
+      },
+      "currentOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 5,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 1
+              }
+            },
+            "close": {
+              "day": 0,
+              "hour": 23,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 1
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 5,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 2
+              }
+            },
+            "close": {
+              "day": 1,
+              "hour": 23,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 2
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 5,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 3
+              }
+            },
+            "close": {
+              "day": 2,
+              "hour": 23,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 3
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 5,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 4
+              }
+            },
+            "close": {
+              "day": 3,
+              "hour": 23,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 4
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 5,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 5
+              }
+            },
+            "close": {
+              "day": 4,
+              "hour": 23,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 5
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 5,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 30
+              }
+            },
+            "close": {
+              "day": 5,
+              "hour": 23,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 30
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 5,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 31
+              }
+            },
+            "close": {
+              "day": 6,
+              "hour": 23,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 31
+              }
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 5:00 AM – 11:00 PM",
+          "Tuesday: 5:00 AM – 11:00 PM",
+          "Wednesday: 5:00 AM – 11:00 PM",
+          "Thursday: 5:00 AM – 11:00 PM",
+          "Friday: 5:00 AM – 11:00 PM",
+          "Saturday: 5:00 AM – 11:00 PM",
+          "Sunday: 5:00 AM – 11:00 PM"
+        ],
+        "nextCloseTime": "2026-10-30T17:30:00Z"
+      },
+      "restroom": true
+    },
+    {
+      "id": "ChIJA6prDv26eTkR3vmQnDQr2D8",
+      "formattedAddress": "HARNARAIN RAJENDRA KUMAR, SAGAR ROAD, Govind Nagar, Lalitpur, Uttar Pradesh 284403, India",
+      "location": {
+        "latitude": 24.68283,
+        "longitude": 78.43155
+      },
+      "rating": 3.8,
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 22,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 6:00 AM – 10:00 PM",
+          "Tuesday: 6:00 AM – 10:00 PM",
+          "Wednesday: 6:00 AM – 10:00 PM",
+          "Thursday: 6:00 AM – 10:00 PM",
+          "Friday: 6:00 AM – 10:00 PM",
+          "Saturday: 6:00 AM – 10:00 PM",
+          "Sunday: 6:00 AM – 10:00 PM"
+        ],
+        "nextCloseTime": "2026-10-30T16:30:00Z"
+      },
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 167,
+      "displayName": {
+        "text": "Harnarain Rajendra Kumar - Bharat Petroleum",
+        "languageCode": "en"
+      },
+      "currentOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 1
+              }
+            },
+            "close": {
+              "day": 0,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 1
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 2
+              }
+            },
+            "close": {
+              "day": 1,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 2
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 3
+              }
+            },
+            "close": {
+              "day": 2,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 3
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 4
+              }
+            },
+            "close": {
+              "day": 3,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 4
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 5
+              }
+            },
+            "close": {
+              "day": 4,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 5
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 30
+              }
+            },
+            "close": {
+              "day": 5,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 30
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 31
+              }
+            },
+            "close": {
+              "day": 6,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 31
+              }
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 6:00 AM – 10:00 PM",
+          "Tuesday: 6:00 AM – 10:00 PM",
+          "Wednesday: 6:00 AM – 10:00 PM",
+          "Thursday: 6:00 AM – 10:00 PM",
+          "Friday: 6:00 AM – 10:00 PM",
+          "Saturday: 6:00 AM – 10:00 PM",
+          "Sunday: 6:00 AM – 10:00 PM"
+        ],
+        "nextCloseTime": "2026-10-30T16:30:00Z"
+      },
+      "restroom": true
+    },
+    {
+      "id": "ChIJCcSqX6W7eTkRxF8TVpknz54",
+      "formattedAddress": "Ground Floor, Lalitpur Rural, Lalitpur, Uttar Pradesh 284403, India",
+      "location": {
+        "latitude": 24.711923,
+        "longitude": 78.406224999999992
+      },
+      "rating": 3.5,
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 5,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 5,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 5,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 5,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 5,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 5,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 23,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 5,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 23,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 5:00 AM – 11:00 PM",
+          "Tuesday: 5:00 AM – 11:00 PM",
+          "Wednesday: 5:00 AM – 11:00 PM",
+          "Thursday: 5:00 AM – 11:00 PM",
+          "Friday: 5:00 AM – 11:00 PM",
+          "Saturday: 5:00 AM – 11:00 PM",
+          "Sunday: 5:00 AM – 11:00 PM"
+        ],
+        "nextCloseTime": "2026-10-30T17:30:00Z"
+      },
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 53,
+      "displayName": {
+        "text": "Hindustan Petroleum Corporation Limited",
+        "languageCode": "en"
+      },
+      "currentOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 5,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 1
+              }
+            },
+            "close": {
+              "day": 0,
+              "hour": 23,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 1
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 5,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 2
+              }
+            },
+            "close": {
+              "day": 1,
+              "hour": 23,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 2
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 5,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 3
+              }
+            },
+            "close": {
+              "day": 2,
+              "hour": 23,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 3
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 5,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 4
+              }
+            },
+            "close": {
+              "day": 3,
+              "hour": 23,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 4
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 5,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 5
+              }
+            },
+            "close": {
+              "day": 4,
+              "hour": 23,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 5
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 5,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 30
+              }
+            },
+            "close": {
+              "day": 5,
+              "hour": 23,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 30
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 5,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 31
+              }
+            },
+            "close": {
+              "day": 6,
+              "hour": 23,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 31
+              }
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 5:00 AM – 11:00 PM",
+          "Tuesday: 5:00 AM – 11:00 PM",
+          "Wednesday: 5:00 AM – 11:00 PM",
+          "Thursday: 5:00 AM – 11:00 PM",
+          "Friday: 5:00 AM – 11:00 PM",
+          "Saturday: 5:00 AM – 11:00 PM",
+          "Sunday: 5:00 AM – 11:00 PM"
+        ],
+        "nextCloseTime": "2026-10-30T17:30:00Z"
+      },
+      "restroom": true
+    },
+    {
+      "id": "ChIJi8J32C27eTkRCdQRhwf1yAA",
+      "formattedAddress": "Old Chanderi Rd, Lalitpur, Lalitpur Rural, Uttar Pradesh 284403, India",
+      "location": {
+        "latitude": 24.7091675,
+        "longitude": 78.398879999999991
+      },
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 22,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 6:00 AM – 10:00 PM",
+          "Tuesday: 6:00 AM – 10:00 PM",
+          "Wednesday: 6:00 AM – 10:00 PM",
+          "Thursday: 6:00 AM – 10:00 PM",
+          "Friday: 6:00 AM – 10:00 PM",
+          "Saturday: 6:00 AM – 10:00 PM",
+          "Sunday: 6:00 AM – 10:00 PM"
+        ],
+        "nextCloseTime": "2026-10-30T16:30:00Z"
+      },
+      "businessStatus": "OPERATIONAL",
+      "displayName": {
+        "text": "Bharat Petroleum Corporation Limited",
+        "languageCode": "en"
+      },
+      "currentOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 1
+              }
+            },
+            "close": {
+              "day": 0,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 1
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 2
+              }
+            },
+            "close": {
+              "day": 1,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 2
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 3
+              }
+            },
+            "close": {
+              "day": 2,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 3
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 4
+              }
+            },
+            "close": {
+              "day": 3,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 4
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 5
+              }
+            },
+            "close": {
+              "day": 4,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 5
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 30
+              }
+            },
+            "close": {
+              "day": 5,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 30
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 31
+              }
+            },
+            "close": {
+              "day": 6,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 31
+              }
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 6:00 AM – 10:00 PM",
+          "Tuesday: 6:00 AM – 10:00 PM",
+          "Wednesday: 6:00 AM – 10:00 PM",
+          "Thursday: 6:00 AM – 10:00 PM",
+          "Friday: 6:00 AM – 10:00 PM",
+          "Saturday: 6:00 AM – 10:00 PM",
+          "Sunday: 6:00 AM – 10:00 PM"
+        ],
+        "nextCloseTime": "2026-10-30T16:30:00Z"
+      }
+    },
+    {
+      "id": "ChIJ6azInHS7eTkRrCjwkog2ctM",
+      "formattedAddress": "KHASRA NO. 6677/1, TIWARI FILLING STATION, SAGAR ROAD, OLD, Govind Nagar, Lalitpur, Ramnagar, Uttar Pradesh 284403, India",
+      "location": {
+        "latitude": 24.679260000000003,
+        "longitude": 78.43361
+      },
+      "rating": 4,
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 22,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 6:00 AM – 10:00 PM",
+          "Tuesday: 6:00 AM – 10:00 PM",
+          "Wednesday: 6:00 AM – 10:00 PM",
+          "Thursday: 6:00 AM – 10:00 PM",
+          "Friday: 6:00 AM – 10:00 PM",
+          "Saturday: 6:00 AM – 10:00 PM",
+          "Sunday: 6:00 AM – 10:00 PM"
+        ],
+        "nextCloseTime": "2026-10-30T16:30:00Z"
+      },
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 112,
+      "displayName": {
+        "text": "Tiwari Filling Station - Bharat Petroleum",
+        "languageCode": "en"
+      },
+      "currentOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 1
+              }
+            },
+            "close": {
+              "day": 0,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 1
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 2
+              }
+            },
+            "close": {
+              "day": 1,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 2
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 3
+              }
+            },
+            "close": {
+              "day": 2,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 3
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 4
+              }
+            },
+            "close": {
+              "day": 3,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 4
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 5
+              }
+            },
+            "close": {
+              "day": 4,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 5
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 30
+              }
+            },
+            "close": {
+              "day": 5,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 30
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 31
+              }
+            },
+            "close": {
+              "day": 6,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 31
+              }
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 6:00 AM – 10:00 PM",
+          "Tuesday: 6:00 AM – 10:00 PM",
+          "Wednesday: 6:00 AM – 10:00 PM",
+          "Thursday: 6:00 AM – 10:00 PM",
+          "Friday: 6:00 AM – 10:00 PM",
+          "Saturday: 6:00 AM – 10:00 PM",
+          "Sunday: 6:00 AM – 10:00 PM"
+        ],
+        "nextCloseTime": "2026-10-30T16:30:00Z"
+      },
+      "restroom": true
+    },
+    {
+      "id": "ChIJrTDkbrS7eTkRzcJSuWlNJKg",
+      "formattedAddress": "Ground Floor, near Galla Mandi, Kachnoda Kalan, Lalitpur, Uttar Pradesh 284403, India",
+      "location": {
+        "latitude": 24.7102702,
+        "longitude": 78.4257135
+      },
+      "rating": 3.6,
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 22,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 6:00 AM – 10:00 PM",
+          "Tuesday: 6:00 AM – 10:00 PM",
+          "Wednesday: 6:00 AM – 10:00 PM",
+          "Thursday: 6:00 AM – 10:00 PM",
+          "Friday: 6:00 AM – 10:00 PM",
+          "Saturday: 6:00 AM – 10:00 PM",
+          "Sunday: 6:00 AM – 10:00 PM"
+        ],
+        "nextCloseTime": "2026-10-30T16:30:00Z"
+      },
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 56,
+      "displayName": {
+        "text": "IndianOil",
+        "languageCode": "en"
+      },
+      "currentOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 1
+              }
+            },
+            "close": {
+              "day": 0,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 1
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 2
+              }
+            },
+            "close": {
+              "day": 1,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 2
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 3
+              }
+            },
+            "close": {
+              "day": 2,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 3
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 4
+              }
+            },
+            "close": {
+              "day": 3,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 4
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 5
+              }
+            },
+            "close": {
+              "day": 4,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 5
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 30
+              }
+            },
+            "close": {
+              "day": 5,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 30
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 31
+              }
+            },
+            "close": {
+              "day": 6,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 31
+              }
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 6:00 AM – 10:00 PM",
+          "Tuesday: 6:00 AM – 10:00 PM",
+          "Wednesday: 6:00 AM – 10:00 PM",
+          "Thursday: 6:00 AM – 10:00 PM",
+          "Friday: 6:00 AM – 10:00 PM",
+          "Saturday: 6:00 AM – 10:00 PM",
+          "Sunday: 6:00 AM – 10:00 PM"
+        ],
+        "nextCloseTime": "2026-10-30T16:30:00Z"
+      },
+      "restroom": true
+    },
+    {
+      "id": "ChIJ9cwYkfS7eTkR2wHJcc3VChQ",
+      "formattedAddress": "Ground Floor, Nh 26, Jhansi - Lalitpur Rd, Lalitpur, Ramnagar, Uttar Pradesh 284403, India",
+      "location": {
+        "latitude": 24.7117781,
+        "longitude": 78.426081799999992
+      },
+      "rating": 3.9,
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 0,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: Open 24 hours",
+          "Tuesday: Open 24 hours",
+          "Wednesday: Open 24 hours",
+          "Thursday: Open 24 hours",
+          "Friday: Open 24 hours",
+          "Saturday: Open 24 hours",
+          "Sunday: Open 24 hours"
+        ]
+      },
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 284,
+      "displayName": {
+        "text": "Jio-bp",
+        "languageCode": "en"
+      },
+      "currentOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 5,
+              "hour": 0,
+              "minute": 0,
+              "truncated": true,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 30
+              }
+            },
+            "close": {
+              "day": 4,
+              "hour": 23,
+              "minute": 59,
+              "truncated": true,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 5
+              }
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: Open 24 hours",
+          "Tuesday: Open 24 hours",
+          "Wednesday: Open 24 hours",
+          "Thursday: Open 24 hours",
+          "Friday: Open 24 hours",
+          "Saturday: Open 24 hours",
+          "Sunday: Open 24 hours"
+        ]
+      },
+      "restroom": true
+    },
+    {
+      "id": "ChIJc93zwgi7eTkREMbinfbYWQM",
+      "formattedAddress": "Ground Floor, Old Chanderi Rd, Siddhan Rd, Durjanpura, Lalitpur, Uttar Pradesh 284403, India",
+      "location": {
+        "latitude": 24.702083,
+        "longitude": 78.386794999999992
+      },
+      "rating": 5,
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 0,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: Open 24 hours",
+          "Tuesday: Open 24 hours",
+          "Wednesday: Open 24 hours",
+          "Thursday: Open 24 hours",
+          "Friday: Open 24 hours",
+          "Saturday: Open 24 hours",
+          "Sunday: Open 24 hours"
+        ]
+      },
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 2,
+      "displayName": {
+        "text": "Hindustan Petroleum Corporation Limited",
+        "languageCode": "en"
+      },
+      "currentOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 5,
+              "hour": 0,
+              "minute": 0,
+              "truncated": true,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 30
+              }
+            },
+            "close": {
+              "day": 4,
+              "hour": 23,
+              "minute": 59,
+              "truncated": true,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 5
+              }
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: Open 24 hours",
+          "Tuesday: Open 24 hours",
+          "Wednesday: Open 24 hours",
+          "Thursday: Open 24 hours",
+          "Friday: Open 24 hours",
+          "Saturday: Open 24 hours",
+          "Sunday: Open 24 hours"
+        ]
+      }
+    },
+    {
+      "id": "ChIJAfiaLJy7eTkRT2PZSG_dJhI",
+      "formattedAddress": "Gata No 1736/02 Silgan, Kachnoda Kalan, Lalitpur, Uttar Pradesh 284403, India",
+      "location": {
+        "latitude": 24.7214857,
+        "longitude": 78.397525899999991
+      },
+      "rating": 4.2,
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 22,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 6:00 AM – 10:00 PM",
+          "Tuesday: 6:00 AM – 10:00 PM",
+          "Wednesday: 6:00 AM – 10:00 PM",
+          "Thursday: 6:00 AM – 10:00 PM",
+          "Friday: 6:00 AM – 10:00 PM",
+          "Saturday: 6:00 AM – 10:00 PM",
+          "Sunday: 6:00 AM – 10:00 PM"
+        ],
+        "nextCloseTime": "2026-10-30T16:30:00Z"
+      },
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 6,
+      "displayName": {
+        "text": "IndianOil",
+        "languageCode": "en"
+      },
+      "currentOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 1
+              }
+            },
+            "close": {
+              "day": 0,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 1
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 2
+              }
+            },
+            "close": {
+              "day": 1,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 2
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 3
+              }
+            },
+            "close": {
+              "day": 2,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 3
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 4
+              }
+            },
+            "close": {
+              "day": 3,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 4
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 5
+              }
+            },
+            "close": {
+              "day": 4,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 5
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 30
+              }
+            },
+            "close": {
+              "day": 5,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 30
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 31
+              }
+            },
+            "close": {
+              "day": 6,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 31
+              }
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 6:00 AM – 10:00 PM",
+          "Tuesday: 6:00 AM – 10:00 PM",
+          "Wednesday: 6:00 AM – 10:00 PM",
+          "Thursday: 6:00 AM – 10:00 PM",
+          "Friday: 6:00 AM – 10:00 PM",
+          "Saturday: 6:00 AM – 10:00 PM",
+          "Sunday: 6:00 AM – 10:00 PM"
+        ],
+        "nextCloseTime": "2026-10-30T16:30:00Z"
+      },
+      "restroom": true
+    },
+    {
+      "id": "ChIJxVXZAjG6eTkR0R0-S4Y2xmA",
+      "formattedAddress": "Ground Floor, NH 44, Jhansi Sagar Highway, Chandera, Lalitpur, Uttar Pradesh 284403, India",
+      "location": {
+        "latitude": 24.720371999999998,
+        "longitude": 78.430922999999993
+      },
+      "rating": 3.9,
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 0,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: Open 24 hours",
+          "Tuesday: Open 24 hours",
+          "Wednesday: Open 24 hours",
+          "Thursday: Open 24 hours",
+          "Friday: Open 24 hours",
+          "Saturday: Open 24 hours",
+          "Sunday: Open 24 hours"
+        ]
+      },
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 94,
+      "displayName": {
+        "text": "Hindustan Petroleum Corporation Limited",
+        "languageCode": "en"
+      },
+      "currentOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 5,
+              "hour": 0,
+              "minute": 0,
+              "truncated": true,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 30
+              }
+            },
+            "close": {
+              "day": 4,
+              "hour": 23,
+              "minute": 59,
+              "truncated": true,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 5
+              }
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: Open 24 hours",
+          "Tuesday: Open 24 hours",
+          "Wednesday: Open 24 hours",
+          "Thursday: Open 24 hours",
+          "Friday: Open 24 hours",
+          "Saturday: Open 24 hours",
+          "Sunday: Open 24 hours"
+        ]
+      },
+      "restroom": true
+    },
+    {
+      "id": "ChIJd3ygVgC7eTkR91TzouXFWCA",
+      "formattedAddress": "PC9J+W3F, Jhansi - Lalitpur Rd, Chandera, Uttar Pradesh 284403, India",
+      "location": {
+        "latitude": 24.720720000000004,
+        "longitude": 78.430883999999992
+      },
+      "rating": 4.6,
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 5,
+      "displayName": {
+        "text": "LALITPUR HIGHWAY SERVICE STATION mannu pump",
+        "languageCode": "en"
+      },
+      "restroom": true
+    },
+    {
+      "id": "ChIJyZnnv8K6eTkRBEOd3VqONSQ",
+      "formattedAddress": "Ground Floor Sagar Road, NH 26, Kachnoda Kalan, Lalitpur, Uttar Pradesh 284403, India",
+      "location": {
+        "latitude": 24.668438,
+        "longitude": 78.442511
+      },
+      "rating": 3.7,
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 22,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 6:00 AM – 10:00 PM",
+          "Tuesday: 6:00 AM – 10:00 PM",
+          "Wednesday: 6:00 AM – 10:00 PM",
+          "Thursday: 6:00 AM – 10:00 PM",
+          "Friday: 6:00 AM – 10:00 PM",
+          "Saturday: 6:00 AM – 10:00 PM",
+          "Sunday: 6:00 AM – 10:00 PM"
+        ],
+        "nextCloseTime": "2026-10-30T16:30:00Z"
+      },
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 27,
+      "displayName": {
+        "text": "IndianOil",
+        "languageCode": "en"
+      },
+      "currentOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 1
+              }
+            },
+            "close": {
+              "day": 0,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 1
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 2
+              }
+            },
+            "close": {
+              "day": 1,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 2
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 3
+              }
+            },
+            "close": {
+              "day": 2,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 3
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 4
+              }
+            },
+            "close": {
+              "day": 3,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 4
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 5
+              }
+            },
+            "close": {
+              "day": 4,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 5
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 30
+              }
+            },
+            "close": {
+              "day": 5,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 30
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 31
+              }
+            },
+            "close": {
+              "day": 6,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 31
+              }
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 6:00 AM – 10:00 PM",
+          "Tuesday: 6:00 AM – 10:00 PM",
+          "Wednesday: 6:00 AM – 10:00 PM",
+          "Thursday: 6:00 AM – 10:00 PM",
+          "Friday: 6:00 AM – 10:00 PM",
+          "Saturday: 6:00 AM – 10:00 PM",
+          "Sunday: 6:00 AM – 10:00 PM"
+        ],
+        "nextCloseTime": "2026-10-30T16:30:00Z"
+      },
+      "restroom": true
+    },
+    {
+      "id": "ChIJ7yjKSjO6eTkRJFcCkbujBrg",
+      "formattedAddress": "Ground Floor, Kachnoda Kalan, Lalitpur, Uttar Pradesh 284403, India",
+      "location": {
+        "latitude": 24.722456,
+        "longitude": 78.429588
+      },
+      "rating": 3.7,
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 22,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 6:00 AM – 10:00 PM",
+          "Tuesday: 6:00 AM – 10:00 PM",
+          "Wednesday: 6:00 AM – 10:00 PM",
+          "Thursday: 6:00 AM – 10:00 PM",
+          "Friday: 6:00 AM – 10:00 PM",
+          "Saturday: 6:00 AM – 10:00 PM",
+          "Sunday: 6:00 AM – 10:00 PM"
+        ],
+        "nextCloseTime": "2026-10-30T16:30:00Z"
+      },
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 192,
+      "displayName": {
+        "text": "IndianOil",
+        "languageCode": "en"
+      },
+      "currentOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 1
+              }
+            },
+            "close": {
+              "day": 0,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 1
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 2
+              }
+            },
+            "close": {
+              "day": 1,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 2
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 3
+              }
+            },
+            "close": {
+              "day": 2,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 3
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 4
+              }
+            },
+            "close": {
+              "day": 3,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 4
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 5
+              }
+            },
+            "close": {
+              "day": 4,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 5
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 30
+              }
+            },
+            "close": {
+              "day": 5,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 30
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 31
+              }
+            },
+            "close": {
+              "day": 6,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 31
+              }
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 6:00 AM – 10:00 PM",
+          "Tuesday: 6:00 AM – 10:00 PM",
+          "Wednesday: 6:00 AM – 10:00 PM",
+          "Thursday: 6:00 AM – 10:00 PM",
+          "Friday: 6:00 AM – 10:00 PM",
+          "Saturday: 6:00 AM – 10:00 PM",
+          "Sunday: 6:00 AM – 10:00 PM"
+        ],
+        "nextCloseTime": "2026-10-30T16:30:00Z"
+      },
+      "restroom": true
+    },
+    {
+      "id": "ChIJV-Hya4W8eTkRi6mDXCn-QTM",
+      "formattedAddress": "Ground Floor, Devgad Road, Jakhaura, Kachnoda Kalan, Uttar Pradesh 284403, India",
+      "location": {
+        "latitude": 24.6779278,
+        "longitude": 78.37411
+      },
+      "rating": 4.4,
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 6,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 22,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 6:00 AM – 10:00 PM",
+          "Tuesday: 6:00 AM – 10:00 PM",
+          "Wednesday: 6:00 AM – 10:00 PM",
+          "Thursday: 6:00 AM – 10:00 PM",
+          "Friday: 6:00 AM – 10:00 PM",
+          "Saturday: 6:00 AM – 10:00 PM",
+          "Sunday: 6:00 AM – 10:00 PM"
+        ],
+        "nextCloseTime": "2026-10-30T16:30:00Z"
+      },
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 178,
+      "displayName": {
+        "text": "IndianOil",
+        "languageCode": "en"
+      },
+      "currentOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 1
+              }
+            },
+            "close": {
+              "day": 0,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 1
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 2
+              }
+            },
+            "close": {
+              "day": 1,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 2
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 3
+              }
+            },
+            "close": {
+              "day": 2,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 3
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 4
+              }
+            },
+            "close": {
+              "day": 3,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 4
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 5
+              }
+            },
+            "close": {
+              "day": 4,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 11,
+                "day": 5
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 30
+              }
+            },
+            "close": {
+              "day": 5,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 30
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 6,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 31
+              }
+            },
+            "close": {
+              "day": 6,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2026,
+                "month": 10,
+                "day": 31
+              }
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 6:00 AM – 10:00 PM",
+          "Tuesday: 6:00 AM – 10:00 PM",
+          "Wednesday: 6:00 AM – 10:00 PM",
+          "Thursday: 6:00 AM – 10:00 PM",
+          "Friday: 6:00 AM – 10:00 PM",
+          "Saturday: 6:00 AM – 10:00 PM",
+          "Sunday: 6:00 AM – 10:00 PM"
+        ],
+        "nextCloseTime": "2026-10-30T16:30:00Z"
+      },
+      "restroom": true
+    }
+  ]
+}
