@@ -31,3 +31,8 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Local config (contains secrets — never commit) ###
+src/main/resources/application-local.properties
+data/
+vellfire.log
