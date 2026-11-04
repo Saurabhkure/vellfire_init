@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Give Feedback</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" th:href="@{/css/style.css}"/>
+</head>
+<body class="feedback-body">
+
+    <!-- ====== HEADER ====== -->
+    <header class="feedback-header">
+        <div class="feedback-header-inner">
+            <button onclick="history.back()" class="back-btn" title="Back">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="15 18 9 12 15 6"/>
+                </svg>
+            </button>
+            <h1 class="feedback-page-title">Give Feedback</h1>
+        </div>
+    </header>
+
+    <main class="feedback-main">
+
+        <!-- Thank-you state -->
+        <div class="thankyou-card" th:if="${submitted}">
+            <div class="thankyou-icon">✅</div>
+            <h2>Thank you!</h2>
+            <p>Your feedback for <strong th:text="${feedback.stationName}">Station</strong> has been recorded.</p>
+            <a href="/" class="btn-submit" style="text-decoration:none; text-align:center; display:block; margin-top:1.5rem;">
+                Back to Home
+            </a>
+        </div>
+
+        <!-- Feedback form -->
+        <div th:unless="${submitted}">
+
+            <!-- Station info card -->
+            <div class="fb-station-card">
+                <div class="fb-station-avatar">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#c8973a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="3" width="13" height="18" rx="2"/>
+                        <path d="M16 8h2a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-2"/>
+                        <line x1="8" y1="10" x2="11" y2="10"/>
+                    </svg>
+                </div>
+                <div class="fb-station-info">
+                    <h3 class="fb-station-name" th:text="${feedback.stationName}">Station Name</h3>
+                    <div class="fb-station-meta">
+                        <span th:if="${feedback.stationDistance != null}" th:text="${feedback.stationDistance}">0.8 km</span>
+                        <span class="meta-sep" th:if="${feedback.stationDistance != null and feedback.googleRating != null}">·</span>
+                        <span th:if="${feedback.googleRating != null}">
+                            Google
+                            <span class="meta-star">★</span>
+                            <span th:text="${feedback.googleRating}">4.7</span>
+                            <span th:if="${feedback.googleRatingCount != null}"
+                                  th:text="'(' + ${feedback.googleRatingCount} + ' reviews)'"></span>
+                        </span>
+                    </div>
+                    <div class="fb-station-address" th:if="${feedback.stationAddress != null}">
+                        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#2d8c7e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;">
+                            <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+                        </svg>
+                        <span th:text="${feedback.stationAddress}">Address</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Form -->
+            <form th:action="@{/feedback}" th:object="${feedback}" method="post" id="feedbackForm">
+                <input type="hidden" th:field="*{placeId}"/>
+                <input type="hidden" th:field="*{stationName}"/>
+                <input type="hidden" th:field="*{stationDistance}"/>
+                <input type="hidden" th:field="*{stationAddress}"/>
+                <input type="hidden" th:field="*{googleRating}"/>
+                <input type="hidden" th:field="*{googleRatingCount}"/>
+
+                <h2 class="fb-section-heading">Your Feedback</h2>
+                <p class="fb-section-sub">Help other users by sharing your experience.</p>
+
+                <!-- 1. Service Quality -->
+                <div class="fb-question-card">
+                    <span class="fb-q-number">1. SERVICE QUALITY</span>
+                    <p class="fb-q-text">How was the overall service at this petrol pump?</p>
+                    <div class="star-rating" data-field="serviceQuality">
+                        <span class="star" data-value="1">☆</span>
+                        <span class="star" data-value="2">☆</span>
+                        <span class="star" data-value="3">☆</span>
+                        <span class="star" data-value="4">☆</span>
+                        <span class="star" data-value="5">☆</span>
+                    </div>
+                    <input type="hidden" th:field="*{serviceQuality}" id="serviceQualityInput"/>
+                </div>
+
+                <!-- 2. Washroom Cleanliness -->
+                <div class="fb-question-card">
+                    <span class="fb-q-number">2. WASHROOM CLEANLINESS</span>
+                    <p class="fb-q-text">How was the cleanliness of the washroom?</p>
+                    <div class="star-rating" data-field="washroomCleanliness">
+                        <span class="star" data-value="1">☆</span>
+                        <span class="star" data-value="2">☆</span>
+                        <span class="star" data-value="3">☆</span>
+                        <span class="star" data-value="4">☆</span>
+                        <span class="star" data-value="5">☆</span>
+                    </div>
+                    <input type="hidden" th:field="*{washroomCleanliness}" id="washroomCleanlinessInput"/>
+                </div>
+
+                <!-- 3. Washroom Available -->
+                <div class="fb-question-card">
+                    <span class="fb-q-number">3. WASHROOM AVAILABLE</span>
+                    <p class="fb-q-text">Was a washroom available at this petrol pump?</p>
+                    <div class="washroom-toggle">
+                        <button type="button" class="toggle-btn toggle-yes" id="toggleYes" onclick="selectWashroom('YES')">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            Yes, Available
+                        </button>
+                        <button type="button" class="toggle-btn toggle-no" id="toggleNo" onclick="selectWashroom('NO')">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+                            </svg>
+                            No, Not available
+                        </button>
+                    </div>
+                    <input type="hidden" th:field="*{washroomAvailable}" id="washroomAvailableInput"/>
+                </div>
+
+                <!-- Additional comments -->
+                <div class="fb-comments-section">
+                    <label class="fb-q-number" for="commentsInput">ADDITIONAL COMMENTS <span class="optional">(OPTIONAL)</span></label>
+                    <textarea id="commentsInput" th:field="*{additionalComments}"
+                              class="fb-textarea" rows="4"
+                              placeholder="Share your experience..."></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Submit Feedback</button>
+
+            </form>
+        </div>
+
+    </main>
+
+<script th:src="@{/js/feedback.js}"></script>
+</body>
+</html>

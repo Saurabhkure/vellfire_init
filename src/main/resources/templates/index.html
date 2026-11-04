@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Nearest Petrol Pump</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" th:href="@{/css/style.css}"/>
+</head>
+<body class="landing-body">
+
+    <!-- ====== TOP HERO (dark navy) ====== -->
+    <div class="hero-section">
+
+        <!-- Header bar -->
+        <div class="landing-header">
+            <div class="landing-logo">
+                <div class="logo-box">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#c8973a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="3" width="13" height="18" rx="2"/>
+                        <path d="M16 8h2a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-2"/>
+                        <line x1="8" y1="10" x2="11" y2="10"/>
+                    </svg>
+                </div>
+                <div class="logo-label">
+                    <span class="logo-line1">NEAREST</span>
+                    <span class="logo-line2">PETROL PUMP</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Petrol station illustration -->
+        <div class="hero-illustration">
+            <div class="illustration-wrapper">
+                <!-- Orbit circle decoration -->
+                <div class="orbit-ring"></div>
+                <!-- Location ping top-right -->
+                <div class="orbit-ping ping-top-right">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#c8973a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="3" width="13" height="18" rx="2"/>
+                        <path d="M16 8h2a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-2"/>
+                    </svg>
+                </div>
+                <!-- Station building -->
+                <div class="station-building">
+                    <div class="station-roof">
+                        <span class="station-roof-label">FUEL</span>
+                    </div>
+                    <div class="station-body">
+                        <div class="pump-unit">
+                            <svg width="32" height="40" viewBox="0 0 32 40" fill="none">
+                                <rect x="4" y="4" width="24" height="32" rx="4" fill="#1a7a6e" stroke="#14685d" stroke-width="1.5"/>
+                                <rect x="8" y="8" width="16" height="10" rx="2" fill="#0f5a51"/>
+                                <circle cx="16" cy="28" r="4" fill="#0f5a51" stroke="#14685d" stroke-width="1"/>
+                                <rect x="14" y="34" width="4" height="4" rx="1" fill="#0f5a51"/>
+                            </svg>
+                        </div>
+                        <div class="pump-unit">
+                            <svg width="32" height="40" viewBox="0 0 32 40" fill="none">
+                                <rect x="4" y="4" width="24" height="32" rx="4" fill="#1a7a6e" stroke="#14685d" stroke-width="1.5"/>
+                                <rect x="8" y="8" width="16" height="10" rx="2" fill="#0f5a51"/>
+                                <circle cx="16" cy="28" r="4" fill="#0f5a51" stroke="#14685d" stroke-width="1"/>
+                                <rect x="14" y="34" width="4" height="4" rx="1" fill="#0f5a51"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="station-pillars">
+                        <div class="pillar"></div>
+                        <div class="pillar"></div>
+                        <div class="pillar"></div>
+                    </div>
+                    <div class="station-ground"></div>
+                </div>
+                <!-- Location dot bottom-right -->
+                <div class="orbit-ping ping-bottom-right">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="#c8973a">
+                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/>
+                    </svg>
+                </div>
+                <!-- Small dot decoration -->
+                <div class="orbit-dot dot-top-left"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ====== BOTTOM CREAM SECTION ====== -->
+    <div class="content-section">
+        <div class="content-inner">
+
+            <h1 class="main-title">Nearest Petrol Pump</h1>
+            <p class="main-subtitle">Find the nearest petrol pumps around you, anytime, anywhere.</p>
+
+            <!-- Error alert -->
+            <div class="alert-box alert-error" th:if="${locationError}" th:text="${locationError}"></div>
+            <div id="jsLocationError" class="alert-box alert-error" style="display:none;"></div>
+
+            <!-- Location card -->
+            <div class="location-card">
+                <div class="location-card-info">
+                    <div class="location-icon-wrap">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2d8c7e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <p class="location-card-title">Use your current location</p>
+                        <p class="location-card-sub">We'll find nearby petrol pumps close to you instantly.</p>
+                    </div>
+                </div>
+
+                <form th:action="@{/search}" th:object="${searchRequest}" method="post" id="searchForm">
+                    <input type="hidden" id="latInput" th:field="*{latitude}"/>
+                    <input type="hidden" id="lngInput" th:field="*{longitude}"/>
+
+                    <button type="button" class="btn-locate" id="locateBtn" onclick="requestLocation()">
+                        <span class="locate-btn-icon">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="3"/>
+                                <path d="M12 2v3M12 19v3M2 12h3M19 12h3"/>
+                                <path d="M4.93 4.93l2.12 2.12M16.95 16.95l2.12 2.12M4.93 19.07l2.12-2.12M16.95 7.05l2.12-2.12"/>
+                            </svg>
+                        </span>
+                        <span id="locateBtnLabel">Use my current location</span>
+                        <span class="locate-btn-arrow">→</span>
+                    </button>
+                </form>
+
+                <!-- Spinner shown while detecting -->
+                <div id="locatingSpinner" class="locating-row" style="display:none;">
+                    <div class="spinner"></div>
+                    <span>Detecting your location…</span>
+                </div>
+
+                <p class="privacy-note">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;">
+                        <circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/>
+                    </svg>
+                    Your location is only used to find nearby pumps.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+<script th:src="@{/js/app.js}"></script>
+</body>
+</html>

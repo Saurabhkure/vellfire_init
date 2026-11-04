@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(netstat -ano)",
+      "Bash(findstr :8080)",
+      "Bash(taskkill *)",
+      "Bash(cmd.exe *)",
+      "WebFetch(domain:www.figma.com)",
+      "Bash(mvnw.cmd spring-boot:run)",
+      "Read(//c//**)",
+      "Read(//mnt/**)",
+      "Bash(\"C:/Users/E162029/.m2/wrapper/dists/apache-maven-3.9.9-bin/4nf9hui3q3djbarqar9g711ggc/apache-maven-3.9.9/bin/mvn.cmd\" compile *)",
+      "Bash(JAVA_HOME=\"C:/Program Files/Zulu/zulu-17\" cd \"C:/Users/E162029/Codebase/temp/vellfire_init\")",
+      "Bash(JAVA_HOME=\"C:/Program Files/Zulu/zulu-17\" \"C:/Users/E162029/.m2/wrapper/dists/apache-maven-3.9.9-bin/4nf9hui3q3djbarqar9g711ggc/apache-maven-3.9.9/bin/mvn.cmd\" compile -q)",
+      "Bash(JAVA_HOME=\"C:/Program Files/Zulu/zulu-17\" \"C:/Users/E162029/.m2/wrapper/dists/apache-maven-3.9.9-bin/4nf9hui3q3djbarqar9g711ggc/apache-maven-3.9.9/bin/mvn.cmd\" test -q)",
+      "Bash(JAVA_HOME=\"C:/Program Files/Zulu/zulu-17\" \"C:/Users/E162029/.m2/wrapper/dists/apache-maven-3.9.9-bin/4nf9hui3q3djbarqar9g711ggc/apache-maven-3.9.9/bin/mvn.cmd\" compile)"
+    ]
+  }
+}

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Nearest Petrol Pump — Results</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" th:href="@{/css/style.css}"/>
+</head>
+<body class="results-body">
+
+    <!-- ====== RESULTS HEADER ====== -->
+    <header class="results-header">
+        <div class="results-header-inner">
+            <a href="/" class="back-btn" title="Back">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="15 18 9 12 15 6"/>
+                </svg>
+            </a>
+            <div class="results-header-title">
+                <span class="results-title-text">Nearest Petrol Pump</span>
+                <span class="results-location-text">
+                    <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;">
+                        <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+                    </svg>
+                    Nearby
+                </span>
+            </div>
+            <div class="results-header-logo">
+                <div class="logo-box logo-box-sm">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#c8973a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="3" width="13" height="18" rx="2"/>
+                        <path d="M16 8h2a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-2"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ====== MAIN ====== -->
+    <main class="results-main">
+
+        <!-- Error state -->
+        <div class="page-error" th:if="${response.hasError()}">
+            <div class="page-error-icon">⚠️</div>
+            <p th:text="${response.errorMessage}">Something went wrong.</p>
+            <a href="/" class="btn-back-home">Try again</a>
+        </div>
+
+        <!-- Results -->
+        <div th:unless="${response.hasError()}">
+
+            <!-- Stats bar -->
+            <div class="stats-bar">
+                <span class="stats-count">
+                    <span id="visibleCount" th:text="${response.stations != null ? response.stations.size() : 0}">0</span>
+                    station<span th:if="${response.stations != null and response.stations.size() != 1}">s</span>
+                    within 15 km
+                </span>
+                <div class="sort-control">
+                    <span class="sort-label">Sort:</span>
+                    <div class="sort-dropdown-wrap">
+                        <select id="sortSelect" class="sort-select" onchange="sortStations(this.value)">
+                            <option value="nearest">Nearest</option>
+                            <option value="open">Currently Open</option>
+                            <option value="rating">Highest Rated</option>
+                            <option value="fastest">Fastest</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Partial failure notice -->
+            <div class="partial-notice" th:if="${response.partialFailure}">
+                ⚠️ Distance data could not be loaded for some stations.
+            </div>
+
+            <!-- Empty state -->
+            <div class="empty-state" th:if="${response.stations == null or response.stations.isEmpty()}">
+                <div class="empty-icon">🔍</div>
+                <h3>No stations found</h3>
+                <p>No operational petrol pumps were found nearby. Try from a different location.</p>
+                <a href="/" class="btn-back-home">Search again</a>
+            </div>
+
+            <!-- Station cards -->
+            <div class="station-list" id="stationList" th:unless="${response.stations == null or response.stations.isEmpty()}">
+
+                <div class="station-card"
+                     th:each="station : ${response.stations}"
+                     th:attr="data-distance=${station.drivingDistanceMeters != null ? station.drivingDistanceMeters : 999999999},
+                              data-duration=${station.estimatedDurationSeconds != null ? station.estimatedDurationSeconds : 999999999},
+                              data-rating=${station.googleRating != null ? station.googleRating : 0},
+                              data-open=${station.openStatus == 'Open' ? 1 : 0}">
+
+                    <!-- Card top row: avatar + name + distance -->
+                    <div class="card-top">
+                        <div class="brand-avatar" th:with="initials=${station.name != null and station.name.length() > 1 ? station.name.substring(0,2).toUpperCase() : '??'}">
+                            <span th:text="${initials}">IN</span>
+                        </div>
+                        <div class="card-name-block">
+                            <h3 class="card-station-name" th:text="${station.name}">Station Name</h3>
+                            <div class="card-rating-row" th:if="${station.googleRating != null}">
+                                <span class="star-icon">★</span>
+                                <span class="rating-number" th:text="${station.googleRating}">4.7</span>
+                                <span class="rating-count" th:if="${station.googleRatingCount != null}"
+                                      th:text="'(' + ${station.googleRatingCount} + ')'"></span>
+                                <span class="rating-label">Google rating</span>
+                            </div>
+                            <div class="card-rating-row" th:unless="${station.googleRating != null}">
+                                <span class="rating-label rating-na">No rating available</span>
+                            </div>
+                        </div>
+                        <div class="card-distance-badge">
+                            <span th:text="${station.formattedDistance}">— km</span>
+                        </div>
+                    </div>
+
+                    <!-- Info grid: distance details + washroom -->
+                    <div class="card-info-grid">
+
+                        <!-- Driving info block -->
+                        <div class="info-block">
+                            <div class="info-block-header">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2d8c7e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="3" y="3" width="13" height="18" rx="2"/>
+                                    <path d="M16 8h2a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-2"/>
+                                </svg>
+                                <span class="info-label">DRIVING DISTANCE</span>
+                            </div>
+                            <div th:if="${station.routingSuccessful}">
+                                <p class="info-value" th:text="${station.formattedDistance}">— km</p>
+                                <p class="info-sub" th:text="${station.formattedDuration}">— min</p>
+                                <!-- Approach side (tentative) -->
+                                <div class="side-badge"
+                                     th:if="${station.sideEstimate != null and station.sideEstimate.name() != 'UNKNOWN'}">
+                                    <span th:text="${station.sideDisplayLabel}">Likely on your left</span>
+                                    <span class="side-tentative">(tentative)</span>
+                                </div>
+                            </div>
+                            <div th:unless="${station.routingSuccessful}">
+                                <p class="info-value info-na">Not available</p>
+                            </div>
+                        </div>
+
+                        <!-- Washroom block -->
+                        <div class="info-block">
+                            <div class="info-block-header">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2d8c7e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M9 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h4"/>
+                                    <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/>
+                                    <line x1="12" y1="3" x2="12" y2="21"/>
+                                </svg>
+                                <span class="info-label">WASHROOM</span>
+                            </div>
+                            <p class="info-value washroom-title">Washroom</p>
+                            <div class="washroom-status">
+                                <!-- Available -->
+                                <span class="washroom-available"
+                                      th:if="${station.washroomAvailability != null and station.washroomAvailability.name() == 'AVAILABLE'}">
+                                    <span class="dot dot-green"></span> Available
+                                </span>
+                                <!-- Unavailable -->
+                                <span class="washroom-unavailable"
+                                      th:if="${station.washroomAvailability != null and station.washroomAvailability.name() == 'UNAVAILABLE'}">
+                                    <span class="dot dot-red"></span>
+                                    <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                                    Not Available
+                                </span>
+                                <!-- Unknown -->
+                                <span class="washroom-unknown"
+                                      th:if="${station.washroomAvailability == null or station.washroomAvailability.name() == 'UNKNOWN'}">
+                                    Unknown
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Open status strip -->
+                    <div class="open-strip open-strip-open"   th:if="${station.openStatus == 'Open'}">🟢 Open now</div>
+                    <div class="open-strip open-strip-closed" th:if="${station.openStatus == 'Closed'}">🔴 Closed</div>
+
+                    <!-- Action buttons -->
+                    <div class="card-actions">
+                        <a th:href="@{/feedback(
+                                placeId=${station.placeId},
+                                stationName=${station.name},
+                                stationDistance=${station.formattedDistance},
+                                stationAddress=${station.address},
+                                googleRating=${station.googleRating},
+                                googleRatingCount=${station.googleRatingCount})}"
+                           class="btn-feedback">
+                            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                            </svg>
+                            Give Feedback
+                        </a>
+                        <a th:if="${station.mapsUrl != null}"
+                           th:href="${station.mapsUrl}"
+                           target="_blank" rel="noopener noreferrer"
+                           class="btn-maps">
+                            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            Open in Google Maps
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+<script>
+function sortStations(mode) {
+    var list = document.getElementById('stationList');
+    if (!list) return;
+    var cards = Array.from(list.querySelectorAll('.station-card'));
+
+    if (mode === 'open') {
+        var visibleCount = 0;
+        cards.forEach(function(card) {
+            if (card.dataset.open === '1') {
+                card.style.display = '';
+                visibleCount++;
+            } else {
+                card.style.display = 'none';
+            }
+        });
+        document.getElementById('visibleCount').textContent = visibleCount;
+        return;
+    }
+
+    cards.forEach(function(card) { card.style.display = ''; });
+    document.getElementById('visibleCount').textContent = cards.length;
+
+    cards.sort(function(a, b) {
+        if (mode === 'nearest') return parseInt(a.dataset.distance) - parseInt(b.dataset.distance);
+        if (mode === 'fastest') return parseInt(a.dataset.duration)  - parseInt(b.dataset.duration);
+        if (mode === 'rating')  return parseFloat(b.dataset.rating)  - parseFloat(a.dataset.rating);
+        return 0;
+    });
+
+    cards.forEach(function(card) { list.appendChild(card); });
+}
+</script>
+</body>
+</html>
